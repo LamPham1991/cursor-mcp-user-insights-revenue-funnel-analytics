@@ -1,0 +1,168 @@
+Interview ID: USR-03
+Participant: [Participant] (Vietnamese parent, child ~20 months, ~5 months in private daycare)
+Interviewer: [Interviewer]
+Format: Verbatim transcript (Q&A, translated from Vietnamese)
+Language: English
+Source: original recording (transcript anonymized for publication)
+
+> Note: The source contained a duplicated block of closing pleasantries
+> from Interviewee 2 appended to the end of this interview. That
+> contamination has been removed below.
+
+---
+
+[Interviewer]: Hello, hello, hello — speaking clearly.
+[Participant]: Clear as day. Ok, fine.
+
+[Participant]:
+Let [Interviewer] just ask quickly since you're working, right?
+
+[Interviewer]:
+Yeah, no worries. My team at the bootcamp is doing surveys and interviews with
+parents who send their kids to school — the kids are quite young, from
+elementary school and below. We want to ask some questions and ask for your
+permission to record today's session so we can use the transcript to compile
+data and create a feature set. Is that ok?
+
+[Participant]:
+Sure, go ahead.
+
+[Interviewer]:
+When did you and your spouse start sending your kid to school?
+
+[Participant]:
+We started when the kid was 15 months old.
+
+[Interviewer]:
+How long has your kid been going to school now?
+
+[Participant]:
+About four and a half, almost five months.
+
+[Interviewer]:
+How did you feel when your child started going to school?
+
+[Participant]:
+Oh, since they are cooperating well, everything feels normal and peaceful. No
+illness or anything, and they seem happy, so it's all ok.
+
+[Interviewer]:
+Private or public school?
+
+[Participant]:
+Private. Very close to our house.
+
+[Interviewer]:
+What are the main concerns you have when sending your child to school?
+
+[Participant]:
+Well, since they are so young, the first concern is cleanliness, then the food,
+and then sleep. Finally, the ratio of one teacher to three kids is ideal.
+
+[Interviewer]:
+Do you mean the number of students in a class?
+
+[Participant]:
+No, the teacher-to-kid ratio. For example, if there are three teachers, there
+should be a maximum of nine kids. If two teachers, then six kids. Smaller groups
+help to avoid illnesses.
+
+[Interviewer]:
+How many kids in your child's class right now?
+
+[Participant]:
+Currently, there are two teachers and five kids, so it's within a reasonable
+number.
+
+[Interviewer]:
+How do you usually get the information you care about?
+
+[Participant]:
+We ask directly at the school or meet with the teachers.
+
+[Interviewer]:
+Do you meet and ask the teacher directly before starting school?
+
+[Participant]:
+Yes, we do a school tour and gather information.
+
+[Interviewer]:
+Do you still check or inquire daily when your child comes back home from
+school?
+
+[Participant]:
+We research thoroughly in the beginning, so we feel assured and let them go to
+school. There is also a camera.
+
+[Interviewer]:
+A camera in the school's app or somewhere else?
+
+[Participant]:
+Yes, the school has an app that integrates a camera and communicates with
+parents.
+
+[Interviewer]:
+What's the name of that app?
+
+[Participant]:
+Let me check. It's "Sound & Kits."
+
+[Interviewer]:
+Is that the school's app?
+
+[Participant]:
+It's a third-party app that provides services to the school.
+
+[Interviewer]:
+In the app, do you just use the camera feature, or are there other actions?
+
+[Participant]:
+Many things — viewing camera footage, receiving notifications from the school
+and teachers, group chats, etc.
+
+[Interviewer]:
+Is there daily attendance tracking? Do they upload the menu or class
+activities on the app?
+
+[Participant]:
+Yes, everything is available on the app.
+
+[Interviewer]:
+Can you communicate directly with the teacher through the app?
+
+[Participant]:
+Yes, there's a chat feature with the teacher.
+
+[Interviewer]:
+Is it a messaging system where you send a message and the teacher replies
+whenever they see it, or is it more real-time?
+
+[Participant]:
+Usually, you send a message and the teacher responds when they check the app.
+It doesn't have any real-time notifications.
+
+[Interviewer]:
+How would you rate the app's ease of use on a scale from 1 to 5?
+
+[Participant]:
+Around 4. It's in Vietnamese, so it's easy to use.
+
+[Interviewer]:
+What's missing for it to reach a 5?
+
+[Participant]:
+Stability. Sometimes the camera function isn't very good, and it crashes
+occasionally.
+
+[Interviewer]:
+How often do you use the app?
+
+[Participant]:
+Mainly to check the camera and see notifications.
+
+---
+Tags: vn-parent, toddler, private-daycare, sound-and-kits-app, in-app-camera,
+async-chat, teacher-ratio, cleanliness-food-sleep, stability-issues,
+no-real-time-notifications
+App rating: 4/5 (capped by stability/crashes)
+Primary use: passive monitoring (camera + notifications), not active communication

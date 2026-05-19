@@ -1,0 +1,67 @@
+{
+  "$schema": "https://modelcontextprotocol.io/schema/v1/mcp-config.json",
+  "_comment": "Copy this file to ~/.cursor/mcp.json (global) or .cursor/mcp.json (per-project). Replace <ABSOLUTE_PATH_TO_THIS_REPO>. The other servers under _optional are commented-out templates kept here for the day this project grows beyond local files.",
+
+  "mcpServers": {
+    "filesystem-research": {
+      "_comment": "The only server actually required for this repo. Exposes ./data/ (transcripts, survey CSV, schemas, alignment) read-only so Cursor can grep, summarize, and quote across the qualitative + quantitative corpora.",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "<ABSOLUTE_PATH_TO_THIS_REPO>/data"
+      ]
+    }
+  },
+
+  "_optional_future_servers": {
+    "_note": "These are NOT active. Copy any of them into mcpServers above (and fill in placeholders) only if/when this project gains a warehouse or a paid product. See README §FAQ.",
+
+    "bigquery": {
+      "_comment": "Add a warehouse for telemetry once n > a few hundred. Pair with a fresh schema doc at data/schemas/bigquery_<dataset>.md.",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-bigquery",
+        "--project-id", "<YOUR_GCP_PROJECT_ID>",
+        "--dataset", "<YOUR_DATASET>",
+        "--location", "US",
+        "--max-bytes-billed", "1000000000"
+      ],
+      "env": {
+        "GOOGLE_APPLICATION_CREDENTIALS": "<ABSOLUTE_PATH_TO_SERVICE_ACCOUNT_JSON>"
+      }
+    },
+
+    "stripe": {
+      "_comment": "Only if/when the EdTech product starts charging. Restricted READ-ONLY key strongly recommended.",
+      "command": "npx",
+      "args": ["-y", "@stripe/mcp", "--tools=all"],
+      "env": {
+        "STRIPE_SECRET_KEY": "<STRIPE_RESTRICTED_READONLY_KEY>"
+      }
+    },
+
+    "posthog": {
+      "_comment": "Only if you ship a client app and start collecting product events.",
+      "command": "npx",
+      "args": ["-y", "@posthog/mcp-server"],
+      "env": {
+        "POSTHOG_API_KEY": "<POSTHOG_PERSONAL_API_KEY>",
+        "POSTHOG_HOST": "https://us.posthog.com"
+      }
+    }
+  },
+
+  "_notes": {
+    "security": [
+      "The filesystem server is read-only by default in the @modelcontextprotocol/server-filesystem package — it cannot delete or modify files.",
+      "Interview transcripts contain identifying language (names, employer, child age, location). Treat the contents of ./data/ as confidential research material.",
+      "If you ever uncomment the BigQuery / Stripe / PostHog blocks: use read-only credentials, set --max-bytes-billed for BigQuery, and never commit the filled-in config."
+    ],
+    "verification": [
+      "After saving, restart Cursor and open Settings → MCP. `filesystem-research` should show a green status dot.",
+      "If it's red, run the exact command from `command` + `args` in your terminal to see the stderr."
+    ]
+  }
+}

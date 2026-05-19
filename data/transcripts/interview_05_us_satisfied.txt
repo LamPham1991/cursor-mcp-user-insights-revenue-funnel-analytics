@@ -1,0 +1,58 @@
+Interview ID: USR-05
+Participant: Mother of an 8-year-old child (interview labeled "[Interviewer]'s interview" — [Interviewer] appears to be the interviewer)
+Interviewer: [Interviewer]
+Format: Structured Q&A with verbatim quoted answers
+Language: English
+Source: Transcript.docx — "IV) [Interviewer]'s interview"
+
+> Note: Original source spelled "Interveiwer" inconsistently. Normalized to
+> "Interviewer" below. Several quotes in the source were missing a closing
+> quotation mark; preserved as-is and marked with [sic] where it affects
+> reading.
+
+---
+
+Q: What do you care most about when sending your child to school?
+A: "Ensuring that they are learning the necessary skills for their age range."
+
+Q: How do you keep track of your child's studies?
+A: "Ask my child personally if they have homework or any assignments that need
+   to be done, and I stay up to date with a weekly newsletter put out by the
+   school that shows the material that they are covering for the week. I'll
+   even reach out to the teacher personally at times for any concerns I have."
+
+Q: What are your biggest challenges when tracking your child's academic
+   progress?
+A: "I don't think I face any challenges really, one thing that helps us is to
+   stay organized. We also use several different apps to help us through
+   everything." [sic]
+
+Q: You mentioned that you use other apps to help with their studies — could you
+   give me an example of some you use and how they help?
+A: "The Remind app allows us to get notifications whenever the teacher puts
+   something out or makes an update. Infinite Campus allows me to stay up to
+   date with my child's grades and allows the teacher to leave me any notes." [sic]
+
+Q: How often do you feel the need to contact your child's teacher about their
+   academic performance or behavior?
+A: "Rarely ever, I don't usually have issues with that. I only really contact
+   the teacher for clarification on something."
+
+Q: How satisfied are you with the current communication tools provided by your
+   child's school? (1–5, 1 = disappointed, 5 = very satisfied). Why?
+A: "I'd say a 4."
+
+Q: Why 4? What could make it a 5?
+A: "I'm not sure, it's very efficient now but it's not perfect." [sic]
+
+Q: How do you think communication between parents and teachers could be made
+   more effective and convenient?
+A: "I honestly don't know, I didn't have many issues with that." [sic]
+
+---
+Tags: us-parent, elementary-age, remind-app, infinite-campus, weekly-newsletter,
+low-friction-user, satisfied-baseline, no-strong-complaints, multi-app-stack
+Communication tools satisfaction: 4/5
+Persona summary: Engaged, well-organized parent whose existing toolchain
+(Remind + Infinite Campus + weekly newsletter + direct teacher reach-out) is
+already meeting her needs. Low pain → low willingness-to-switch.

@@ -1,0 +1,62 @@
+Interview ID: USR-01
+Participant: [Participant] (Vietnamese parent, child entering 1st grade)
+Interviewer: [Interviewer]
+Format: AI-generated meeting summary (timestamped notes, not full transcript)
+Language: English (translated from Vietnamese)
+Source: Transcript.docx — "Interviewee 1"
+
+---
+
+SUMMARY NOTES
+
+(01:05) [Interviewer] introduced participating in a product bootcamp course and
+building an MVP for a product, emphasizing the importance of user interviews to
+understand the needs of parents in monitoring their children's learning.
+
+(02:17) [Interviewer] asked [Participant] about the process of monitoring their child's
+learning, especially from 1st grade onwards, and requested [Participant] to share in
+detail the information that parents need to know.
+
+(04:00) [Participant] described the school's website where parents can view the menu and
+receive weekly feedback on their child, while also mentioning that communication
+between teachers and parents is mainly through the Zalo app.
+
+(06:01) [Interviewer] concluded that relying on information from the website
+may make it difficult for parents to monitor their child's development.
+
+(08:21) [Participant] talked about the information that parents need to know before
+deciding to send their child to school, emphasizing that apart from food, there
+is not much to be concerned about on a daily basis.
+
+(14:18) [Interviewer] raised the main concerns of parents about their children
+at school, such as food and safety.
+
+(14:48) [Participant] emphasized the importance of asking children questions to detect
+issues at school that teachers may not know about.
+
+(17:50) [Participant] expressed the desire for an app from the school that provides
+comprehensive information about their child's learning and activities.
+
+NEXT STEPS / AGREEMENTS
+
+(03:39) [Interviewer] will ask [Participant] about sharing weekly information for the
+child on the school's website.
+
+(08:45) [Interviewer] and [Participant] agreed that [Participant] will use the Class Dojo app
+every 2-3 months to monitor their child's egg points.
+
+(15:20) Create a specific school website to provide information about daily
+activities and assignments for students. [Interviewer] and [Participant] are responsible
+for implementing and monitoring the reasonableness of the website.
+
+(15:46) Consider developing an app or website to interact with parents and
+students, including updating scores and information about daily issues. Ensure
+the interactivity and usefulness of the app.
+
+(24:13) [Interviewer]: Rewrite the script for the interview with the British
+father and then technically review it.
+
+---
+Tags: vn-parent, primary-school, zalo, school-website, classdojo, food-safety, child-questioning, wants-comprehensive-app
+Format-note: This entry is a meeting summary, not a verbatim transcript. Treat
+quotes from it as paraphrased.

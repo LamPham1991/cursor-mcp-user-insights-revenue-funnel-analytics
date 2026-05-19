@@ -1,0 +1,103 @@
+Interview ID: USR-04
+Participant: [Participant] (parent; uses ClassDojo as primary school-comms channel)
+Interviewer: (unnamed — labeled simply "Interviewer" in source)
+Format: Structured Q&A with verbatim quoted answers
+Language: English
+Source: Transcript.docx — "III) [Participant]'s interview"
+
+---
+
+Q: What do you care most about when sending your child to school?
+A: "That she is going to be set up for success in the classroom and that her
+   teachers are partners in her success."
+
+Q: How do you keep track of your child's studies?
+A: "You can look in the app under the specified classroom."
+
+Q: What are your biggest challenges when tracking your child's academic
+   progress?
+A: "The infrequency of progress reports, especially when the teacher is not
+   inputting the progress reports in a timely manner."
+
+Q: How often do you feel the need to contact your child's teacher about their
+   academic performance or behavior?
+A: "Once a day, every day, with a breakdown of performance and behavior, along
+   with auxiliary notes from the teachers."
+
+Q: How do you currently receive information about your child's progress at
+   school? What are the primary ways you communicate with your child's teachers?
+A: "Via the ClassDojo app updates."
+
+Q: How satisfied are you with the current communication tools provided by your
+   child's school? (1–5, 1 = disappointed, 5 = very satisfied). Why?
+A: "2. The paywall is quite upsetting since I believe it should be the
+   teachers' responsibility to pay for it rather than the parents."
+
+Q: How satisfied are you with these methods of communication? (1–5)
+A: "2, because I can't save any of the messages that come through, and message
+   sending is delayed."
+
+Q: Can you share any recent experiences where you found it challenging to
+   communicate with a teacher?
+A: "I attempted to contact the principal via ClassDojo only to find out they
+   don't actually even use the app."
+
+Q: What made this situation difficult for you?
+A: "The lack of availability of the principal for the question to be answered."
+
+Q: How do you typically collaborate with teachers to support your child's
+   learning?
+A: "I'm supposed to be receiving updates every 30 minutes, which come as a
+   daily report at the end of the day."
+
+Q: Are there specific ways you feel this collaboration could be improved?
+A: "Receiving updates in a timely manner."
+
+Q: How often do you communicate with your child's teachers? Is this frequency
+   sufficient, or would you prefer more or less communication?
+A: "Once a day is good."
+
+Q: How important is it for you to receive timely updates from the teachers?
+   (1–5). Can you give an example of a time when timing of communication was
+   an issue?
+A: "5. It was an issue for her last year when the child's teacher was not
+   frequent with the updates, and her child started lagging behind because of
+   it."
+
+Q: What tools or platforms do you currently use to communicate with teachers?
+   Any you dislike or avoid?
+A: "ClassDojo."
+
+Q: Any tools/platforms you like and why?
+A: "I love the weekly coverage of the curriculum."
+
+Q: If you could change one thing about how you communicate with teachers, what
+   would it be?
+A: "I wish you could send parent-teacher conference calendar links and receive
+   more regular updates on the kids. I also wish teachers could set reminders
+   for kids."
+
+Q: What type of information do you most need or value from teachers (e.g.
+   academic progress, behavior updates, upcoming events)?
+A: "Testing reminders, updates for students, and events in school."
+
+---
+
+KEY TAKEAWAYS (from source doc):
+
+- The interviewee currently uses ClassDojo for communication.
+- The biggest concerns are (a) having to pay to see a full breakdown of the
+  child's performance, and (b) issues arising when teachers and staff do not
+  fully utilize the app to keep in contact with parents.
+- This suggests that the focus should be on building an app for teachers
+  rather than solely for parents. It's essential to consider how to
+  incentivize teachers to engage with the app.
+- The interviewee prefers receiving updates via SMS rather than navigating
+  through an app to find necessary information.
+
+---
+Tags: classdojo-user, paywall-objection, teacher-adoption-gap, message-delay,
+cannot-save-messages, sms-preference, wants-calendar-links, wants-teacher-reminders,
+high-update-frequency-need, principal-unreachable
+Communication tools satisfaction: 2/5
+Timing-of-updates importance: 5/5

@@ -1,0 +1,140 @@
+Interview ID: USR-02
+Participant: UK Parent (Zoom display name auto-tagged as "[redacted workplace name]" — likely a workplace device; treat as anonymous UK father, daughter in primary school)
+Interviewer: [Interviewer]
+Format: Verbatim transcript (Q&A)
+Language: English
+Source: Transcript.docx — "Interviewee 2"
+
+---
+
+UK Parent:
+Homework that comes every week and it's like English and maths. So there's could
+be on a number of platforms. It's easy on Google Classroom. I see that's, you
+know, what's getting used. The homework — yeah, very main thing — or receiving
+updates.
+
+[Interviewer]:
+Okay, so I will move to the next part. Let me ask you about how do you think
+the communication between the parents and the teachers currently — does this
+help a lot when you communicate and collaborate with the kid? Are you just only
+using the platform from the school and that's enough? Do you have, like, really
+deep talks with the teacher?
+
+UK Parent:
+You can't contact them through the platform. You need to contact them by
+emailing the school, and then your school will record that, and if you need to
+speak to them they'll arrange an appointment with you or see them on the school
+playground. So I'm not sure.
+
+[Interviewer]:
+Does the class have a community for all the parents of the class, with the
+teacher also there — so whenever there's an issue, the teacher can communicate
+directly with the whole group of parents? Or is it just one-on-one individual?
+
+UK Parent:
+Yeah. So the teachers can communicate with the children and their parents
+directly on Google Classroom and they'll post updates on there. The ability for
+chat to happen [exists], but the parents are not chatting there and the teachers
+are monitoring. It's the kids doing occasional updates. The adults are chatting
+via the WhatsApp chat, which doesn't have teachers on.
+
+[Interviewer]:
+Did you have any additional experience regarding challenges in tracking your
+kids' studies and communicating with the teacher?
+
+UK Parent:
+No, I mean — I think the communication, when you need it, you can get it. I
+think they could be doing more testing, so there's more clarity over how well
+people are doing and showing the results.
+
+[Interviewer]:
+Beside the school, do you send your kid to any other extra courses? For example
+like music or painting or swimming?
+
+UK Parent:
+Yep. Does gymnastics, does piano and singing, and does foreign language as well,
+separately.
+
+[Interviewer]:
+How do you manage the study of the kid across those different schools/subjects?
+
+UK Parent:
+Sorry, say that again.
+
+[Interviewer]:
+When you send your kid to study different subjects outside of school, is it one
+center that includes all subjects, or different centers, different schools?
+
+UK Parent:
+Oh, okay. No, they're all different.
+
+[Interviewer]:
+How do you manage all of the studying progress in those subjects? Do you have
+any tool, or do you still communicate with the teacher? How do you manage
+everything?
+
+UK Parent:
+Well, one of them is just done by email. The music, as is the foreign language —
+it's just email for updates. And they bring back some work at the end of the
+session. The gymnastics has an app where they do, like, the billing and the
+classes and the bookings and payments. Seems to work.
+
+[Interviewer]:
+Okay, do you remember the name of that app?
+
+UK Parent:
+Uh, yeah. Good. ICP app.
+
+[Interviewer]:
+ICP app. Okay. With that one you need the account from the school to log in,
+right?
+
+UK Parent:
+No, the school aren't connected to that one. It's just the outside school
+activities.
+
+[Interviewer]:
+Among the communication styles like that — email, Google Classroom, the app,
+WhatsApp — which channel do you find most effective and efficient to
+communicate with the teacher and keep track with the kid's study?
+
+UK Parent:
+Well, in almost everything, the communication with the professionals is done by
+email.
+
+[Interviewer]:
+I see.
+
+UK Parent:
+Yeah. They're not ready for, like, back-and-forward communication. They're for
+one-way communication, or for, you know, booking things, or for sending in
+homework. But they all perform, like, functions. I guess the apps — they're all
+useful to some degree. They're doing different functions.
+
+[Interviewer]:
+Anything you want to share about the challenge or the journey of having a kid,
+especially when they start going to school?
+
+UK Parent:
+Don't know if I've got much else to add, really. I don't know.
+
+[Interviewer]:
+Do you spend a lot of time doing the homework together with the kid, or just
+let them do it themselves? How much time do you spend studying together with
+the kid?
+
+UK Parent:
+Yeah, it obviously depends on what the homework is that week, but I guess maybe
+like an hour a week. Might help a bit — it depends on the work, but obviously
+I'd rather my daughter does it herself. Really, that's better — if you can
+figure things out and do it with confidence.
+
+[Closing pleasantries about gift cards, accent, future MVP follow-up — omitted
+for brevity. Participant said they would be available for a follow-up call.]
+
+---
+Tags: uk-parent, primary-school, google-classroom, email-primary, whatsapp-parent-group,
+gymnastics-app, no-direct-teacher-chat, one-way-communication, wants-more-testing-visibility,
+hour-per-week-homework
+Channel preferences (ranked by interviewee): email > Google Classroom > activity-specific apps > WhatsApp
+NPS: not asked
