@@ -129,3 +129,23 @@ Paste the configuration from our [mcp-config-template.json](https://github.com/L
     }
   }
 }
+
+<br>
+
+##Step 2 — Authenticate Locally##
+
+**For BigQuery:** Run `gcloud auth application-default login` in your terminal. This allows the server to query data using your local credentials without needing service account JSON files.
+
+**For Insights:** Ensure your `.env` file (if using node server) contains valid API keys for your behavioral analytics provider.
+
+<br>
+
+## Step 3 — Initialize Local Context
+
+Place your qualitative data (interview transcripts in `.md`, `.txt`, or `.pdf`) into the `./data/transcripts` folder. The `user-insights` server will automatically index these for semantic search.
+
+<br>
+
+## Step 4 — Verify Connection
+
+Restart Cursor. In the Chat sidebar or Composer (Ctrl/Cmd + L), look for the MCP icon (a plug or hammer symbol). You should see `bigquery-revenue` and `user-insights` active.
