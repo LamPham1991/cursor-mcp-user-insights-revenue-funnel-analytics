@@ -70,8 +70,7 @@ Insight Synthesis: Cursor correlates the behavioral metrics (the What) with the 
 
 *"What are the most frequent user complaints about the Gamification UI, and what examples can you synthesize from recent interviews?"*
 
-<img width="1024" height="931" alt="image" src="https://github.com/user-attachments/assets/a6d15404-d1d8-4216-aba0-d065ba515968" />
-
+<img width="916" height="693" alt="Screenshot 2026-05-19 at 17 14 52" src="https://github.com/user-attachments/assets/b3075c33-f1ef-4ea5-b8bc-76fc291d7423" />
 
 **Conversion Dashboard**
 
