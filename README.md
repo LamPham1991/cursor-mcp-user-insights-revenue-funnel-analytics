@@ -12,7 +12,7 @@ You have urgent questions like:
 * *"What does our trial-to-paid funnel look like for users who completed onboarding within 24 hours vs. those who didn't?"*
 * *"Which product features are high-revenue users actually interacting with before they subscribe?"*
 
-The answer sits in BigQuery. But between writing massive SQL queries, validating complex event-join logics, formatting outputs, and iterating on follow-ups, what should take minutes takes hours. Your product analytics queue becomes the blocker to active decision-making.
+The answer sits in BigQuery. But between writing massive SQL queries, validating complex event-join logics, formatting outputs, and iterating on follow-ups, what should takes hours. Your product analytics queue becomes the blocker to active decision-making.
 
 The core issue isn't access to data. It's the **latency between behavioral questions and actionable business insights.**
 
