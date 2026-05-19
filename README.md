@@ -42,13 +42,3 @@ This project connects your AI Code Editor (**Cursor**) directly to **Google BigQ
 
 ## Example Insights & Output Dashboards
 
-### 1. Unified Funnel & Behavioral Analysis
-> *"What's the drop-off rate at each step of our onboarding funnel, and what qualitative signals correlate with users who drop off early?"*
-
-```text
-[ FUNNEL STAGE ]     [ CONV. RATE ]    [ QUALITATIVE METRIC / DROP-OFF SIGNAL ]
-1. Landed Homepage   ■■■■■■■■ 100%     Avg. Session: 45s
-2. Registered        ■■■■■■   72%      Friction: Captcha verification errors (8%)
-3. Onboarding Compl. ■■■■     48%      High Drop-off: Users skipped the interactive tour
-4. Started Trial     ■■■      31%      PQL Signal: 65% of active trials used Feature X
-5. Subscribed        ■        8.2%     Conversion latency: Avg. 12 days to upgrade
