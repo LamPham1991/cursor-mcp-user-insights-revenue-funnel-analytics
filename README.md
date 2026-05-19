@@ -1,1 +1,1 @@
-# cursor-mcp-user-insights-revenue-funnel-analytics
+AI-Powered Qualitative & Quantitative User Insights & Revenue Funnel Analytics
