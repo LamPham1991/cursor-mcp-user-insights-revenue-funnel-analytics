@@ -63,7 +63,7 @@ Insight Synthesis: Cursor correlates the behavioral metrics (the What) with the 
 **Core Feature Engagement (Quantitative)**
 "What is the engagement depth of our new Gamification feature by monthly cohort?"
 
-<img width="1024" height="629" alt="image" src="https://github.com/user-attachments/assets/55f2cc20-1562-450e-a7ae-5aa3021afe23" />
+<img width="982" height="518" alt="Screenshot 2026-05-19 at 17 09 50" src="https://github.com/user-attachments/assets/854f5be2-b036-4ef2-9915-f902f7b287ca" />
 
 **Qualitative Feedback & Interview Synthesis**
 "What are the most frequent user complaints about the Gamification UI, and what examples can you synthesize from recent interviews?"
