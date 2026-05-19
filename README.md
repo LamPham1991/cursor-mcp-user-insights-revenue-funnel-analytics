@@ -39,6 +39,30 @@ This project connects your AI Code Editor (**Cursor**) directly to **Google BigQ
 3. **Local & Secure Run:** The query runs against your BigQuery project using your local `gcloud` credentials. **No data leaves your machine.**
 4. **Insight Delivery:** Results are returned to Cursor, which interprets the trends, identifies friction points, and presents them conversationally.
 
+#Qualitative & Quantitative User Insights
+┌──────────────────────────┐               MCP Protocol               ┌──────────────────────────┐
+│                          │◄────────────────────────────────────────►│                          │
+│          Cursor          │             Tool calls / Data            │  mcp-server-user-insight │
+│       (AI Assistant)     │                                          │    (local MCP server)    │
+│                          │                                          └────────────┬─────────────┘
+└──────────────────────────┘                                                       │
+                                                                                   │
+                                         ┌─────────────────────────────────────────┴─────────────────────────────────────────┐
+                                         │                                                                                   │
+                                         ▼ (Quantitative Insights)                                                           ▼ (Qualitative Insights)
+                        ┌──────────────────────────────────┐                                                ┌──────────────────────────────────┐
+                        │       Amplitude / Mixpanel       │                                                │        Local Vector DB           │
+                        │       (Behavioral API Tool)      │                                                │     (Semantic Search / RAG)      │
+                        └────────────────┬─────────────────┘                                                └────────────────┬─────────────────┘
+                                         │                                                                                   │
+                                         │ Authenticated                                                                     │ Reads local context
+                                         │ via API Keys                                                                      │ (PDFs, Transcripts, MD)
+                                         ▼                                                                                   ▼
+                        ┌──────────────────────────────────┐                                                ┌──────────────────────────────────┐
+                        │      Product Analytics Cloud     │                                                │         Local Workspace          │
+                        │     (User Cohorts & Funnels)     │                                                │    (Interview Transcripts &      │
+                        │                                  │                                                │         User Surveys)            │
+                        └──────────────────────────────────┘                                                └──────────────────────────────────┘
 ---
 
 ## Example Insights & Output Dashboards
