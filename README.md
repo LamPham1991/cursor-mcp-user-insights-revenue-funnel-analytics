@@ -61,23 +61,27 @@ Insight Synthesis: Cursor correlates the behavioral metrics (the What) with the 
 ## Example Insights & Output Dashboards
 
 **Core Feature Engagement (Quantitative)**
-"What is the engagement depth of our new Gamification feature by monthly cohort?"
+
+*"What is the engagement depth of our new Gamification feature by monthly cohort?"*
 
 <img width="982" height="518" alt="Screenshot 2026-05-19 at 17 09 50" src="https://github.com/user-attachments/assets/854f5be2-b036-4ef2-9915-f902f7b287ca" />
 
 **Qualitative Feedback & Interview Synthesis**
-"What are the most frequent user complaints about the Gamification UI, and what examples can you synthesize from recent interviews?"
+
+*"What are the most frequent user complaints about the Gamification UI, and what examples can you synthesize from recent interviews?"*
 
 <img width="1024" height="931" alt="image" src="https://github.com/user-attachments/assets/a6d15404-d1d8-4216-aba0-d065ba515968" />
 
 
 **Conversion Dashboard**
-"Show me the new user onboarding-to-paid conversion rate, broken down by monthly cohorts for the last 6 months."
+
+*"Show me the new user onboarding-to-paid conversion rate, broken down by monthly cohorts for the last 6 months."*
 
 <img width="706" height="337" alt="Screenshot 2026-05-19 at 16 45 02" src="https://github.com/user-attachments/assets/5e3381d7-7f9e-4f06-80dd-f5d18bfc299c" />
 
 **Lead & Revenue Interaction**
-"How do lead volume and revenue correlate across our different segments?"
+
+*"How do lead volume and revenue correlate across our different segments?"*
 
 <img width="1024" height="629" alt="image" src="https://github.com/user-attachments/assets/b986cecd-053d-439a-abd1-4121cb15bbcc" />
 
