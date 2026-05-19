@@ -31,7 +31,7 @@ The core issue isn't access to data. It's the **latency between behavioral quest
 This project connects your AI Code Editor (**Cursor**) directly to **Google BigQuery** using the **Model Context Protocol (MCP)** — an open standard that lets AI assistants call external databases and tools natively.
 # Revenue Funnel Conversion Analytics
 
-<img width="982" height="518" alt="Screenshot 2026-05-19 at 17 09 50" src="https://github.com/user-attachments/assets/175fa19a-1adb-4751-a759-47bd16f727f1" />
+<img width="1594" height="692" alt="image" src="https://github.com/user-attachments/assets/43cf9b99-edbf-4900-9dca-0dcf1432ccfd" />
 
 ### How it works:
 1. **Ask in Natural Language:** You ask Cursor a question about funnel drop-offs, or revenue correlation in the Chat sidebar (Ctrl/Cmd + L) or Composer.
