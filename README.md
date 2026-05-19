@@ -129,31 +129,3 @@ Paste the configuration from our [mcp-config-template.json](https://github.com/L
     }
   }
 }
-
-**Step 2 — Authenticate Locally**
-For BigQuery: Run gcloud auth application-default login in your terminal. This allows the server to query data using your local credentials without needing service account JSON files.
-For Insights: Ensure your .env file (if using node server) contains valid API keys for your behavioral analytics provider.
-
-**Step 3 — Initialize Local Context**
-Place your qualitative data (interview transcripts in .md, .txt, or .pdf) into the ./data/transcripts folder. The user-insights server will automatically index these for semantic search.
-
-**Step 4 — Verify Connection**
-Restart Cursor. In the Chat sidebar or Composer (Ctrl/Cmd + L), look for the MCP icon (a plug or hammer symbol). You should see bigquery-revenue and user-insights active.
-Start Asking Questions
-*Revenue Funnel:*
-
-"Show me the new user onboarding-to-paid conversion rate, broken down by monthly cohorts for the last 6 months."
-
-"What's the drop-off rate at each step of our onboarding funnel?"
-
-*Quantitative Behavioral Insights:*
-
-"Which core features are most utilized by users who have a high PQL score?"
-
-"Compare the 30-day retention rate between users from organic channels vs. paid ads."
-
-*Qualitative Feedback:*
-
-"Synthesize the most common friction points regarding our 'Dashboard' UI from recent user interviews."
-
-"Based on feedback, why are users finding it difficult to complete the setup process?"
