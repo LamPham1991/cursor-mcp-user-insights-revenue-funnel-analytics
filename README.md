@@ -34,35 +34,26 @@ This project connects your AI Code Editor (**Cursor**) directly to **Google BigQ
 <img width="797" height="346" alt="Screenshot 2026-05-19 at 14 44 34" src="https://github.com/user-attachments/assets/83f0c8aa-6a3c-409c-bc0c-e61104a75b11" />
 
 ### How it works:
-1. **Ask in Natural Language:** You ask Cursor a question about user behavior, funnel drop-offs, or revenue correlation in the Chat sidebar (Ctrl/Cmd + L) or Composer.
+1. **Ask in Natural Language:** You ask Cursor a question about funnel drop-offs, or revenue correlation in the Chat sidebar (Ctrl/Cmd + L) or Composer.
 2. **AI Translates & Executes:** Cursor translates it into an optimized SQL query reflecting your database schema via the MCP BigQuery tool.
 3. **Local & Secure Run:** The query runs against your BigQuery project using your local `gcloud` credentials. **No data leaves your machine.**
 4. **Insight Delivery:** Results are returned to Cursor, which interprets the trends, identifies friction points, and presents them conversationally.
 
-#Qualitative & Quantitative User Insights
-┌──────────────────────────┐               MCP Protocol               ┌──────────────────────────┐
-│                          │◄────────────────────────────────────────►│                          │
-│          Cursor          │             Tool calls / Data            │  mcp-server-user-insight │
-│       (AI Assistant)     │                                          │    (local MCP server)    │
-│                          │                                          └────────────┬─────────────┘
-└──────────────────────────┘                                                       │
-                                                                                   │
-                                         ┌─────────────────────────────────────────┴─────────────────────────────────────────┐
-                                         │                                                                                   │
-                                         ▼ (Quantitative Insights)                                                           ▼ (Qualitative Insights)
-                        ┌──────────────────────────────────┐                                                ┌──────────────────────────────────┐
-                        │       Amplitude / Mixpanel       │                                                │        Local Vector DB           │
-                        │       (Behavioral API Tool)      │                                                │     (Semantic Search / RAG)      │
-                        └────────────────┬─────────────────┘                                                └────────────────┬─────────────────┘
-                                         │                                                                                   │
-                                         │ Authenticated                                                                     │ Reads local context
-                                         │ via API Keys                                                                      │ (PDFs, Transcripts, MD)
-                                         ▼                                                                                   ▼
-                        ┌──────────────────────────────────┐                                                ┌──────────────────────────────────┐
-                        │      Product Analytics Cloud     │                                                │         Local Workspace          │
-                        │     (User Cohorts & Funnels)     │                                                │    (Interview Transcripts &      │
-                        │                                  │                                                │         User Surveys)            │
-                        └──────────────────────────────────┘                                                └──────────────────────────────────┘
+# Qualitative & Quantitative User Insights
+<img width="528" height="554" alt="Screenshot 2026-05-19 at 16 29 00" src="https://github.com/user-attachments/assets/a76d6d89-6dae-4c1a-89a4-70e20823e8a9" />
+
+### How it works:
+1. **Ask in Natural Language:** You ask Cursor a question about user product behavior (e.g., "What is the drop-off rate at the KYC step?") or user feedback (e.g., "What are the top 3 user complaints about our new feature?") in the Chat sidebar or Composer.
+
+2. **AI Intent Routing & Execution:** Cursor analyzes your request and routes it dynamically via the mcp-server-user-insight tool:
+
+For Quantitative Data: It calls the Analytics API (Amplitude/Mixpanel) to fetch real-time behavioral cohorts, funnels, and retention metrics.
+
+For Qualitative Data: It performs a semantic search against your local Vector DB to retrieve relevant segments of user feedback and interview transcripts.
+
+3. **Local & Secure Processing:** All operations run locally. Authentications to third-party analytics platforms use your local API Keys, and qualitative analysis is strictly bounded to your local workspace context. Your raw feedback data and transcripts never leave your machine.
+
+Insight Synthesis: Cursor correlates the behavioral metrics (the What) with the semantic user feedback (the Why), giving you a holistic, conversational breakdown of user insights directly in your editor.
 ---
 
 ## Example Insights & Output Dashboards
