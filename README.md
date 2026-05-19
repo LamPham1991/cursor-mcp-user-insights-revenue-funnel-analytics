@@ -60,11 +60,15 @@ Insight Synthesis: Cursor correlates the behavioral metrics (the What) with the 
 
 ## Example Insights & Output Dashboards
 
+--
+
 **Core Feature Engagement (Quantitative)**
 
 *"What is the engagement depth of our new Gamification feature by monthly cohort?"*
 
 <img width="982" height="518" alt="Screenshot 2026-05-19 at 17 09 50" src="https://github.com/user-attachments/assets/854f5be2-b036-4ef2-9915-f902f7b287ca" />
+
+--
 
 **Qualitative Feedback & Interview Synthesis**
 
@@ -72,11 +76,15 @@ Insight Synthesis: Cursor correlates the behavioral metrics (the What) with the 
 
 <img width="916" height="693" alt="Screenshot 2026-05-19 at 17 14 52" src="https://github.com/user-attachments/assets/b3075c33-f1ef-4ea5-b8bc-76fc291d7423" />
 
+--
+
 **Conversion Dashboard**
 
 *"Show me the new user onboarding-to-paid conversion rate, broken down by monthly cohorts for the last 6 months."*
 
 <img width="706" height="337" alt="Screenshot 2026-05-19 at 16 45 02" src="https://github.com/user-attachments/assets/5e3381d7-7f9e-4f06-80dd-f5d18bfc299c" />
+
+--
 
 **Lead & Revenue Interaction**
 
