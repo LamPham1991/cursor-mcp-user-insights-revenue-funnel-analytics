@@ -104,8 +104,8 @@ Insight Synthesis: Cursor correlates the behavioral metrics (the What) with the 
 - API Key for your Analytics platform (e.g., Amplitude/Mixpanel).
 
 **Step 1 — Configure Cursor MCP**
-Open the Cursor settings, navigate to Features > MCP, and click Add New MCP Server.
 
+Open the Cursor settings, navigate to Features > MCP, and click Add New MCP Server.
 Paste the configuration from our [mcp-config-template.json](https://github.com/LamPham1991/cursor-mcp-user-insights-revenue-funnel-analytics/blob/main/mcp-config-template.json):
 
 ```json
@@ -129,3 +129,63 @@ Paste the configuration from our [mcp-config-template.json](https://github.com/L
     }
   }
 }
+```
+**Step 2 — Authenticate Locally**
+For BigQuery: Run gcloud auth application-default login in your terminal. This allows the server to query data using your local credentials without needing service account JSON files.
+For Insights: Ensure your .env file (if using node server) contains valid API keys for your behavioral analytics provider.
+
+**Step 3 — Initialize Local Context**
+Place your qualitative data (interview transcripts in .md, .txt, or .pdf) into the ./data/transcripts folder. The user-insights server will automatically index these for semantic search.
+
+**Step 4 — Verify Connection**
+Restart Cursor. In the Chat sidebar or Composer (Ctrl/Cmd + L), look for the MCP icon (a plug or hammer symbol). You should see bigquery-revenue and user-insights active.
+
+**Start Asking Questions**
+*Revenue Funnel:*
+
+"Show me the new user onboarding-to-paid conversion rate, broken down by monthly cohorts for the last 6 months."
+
+"What's the drop-off rate at each step of our onboarding funnel?"
+
+*Quantitative Behavioral Insights:*
+
+"Which core features are most utilized by users who have a high PQL score?"
+
+"Compare the 30-day retention rate between users from organic channels vs. paid ads."
+
+*Qualitative Feedback:*
+
+"Synthesize the most common friction points regarding our 'Dashboard' UI from recent user interviews."
+
+"Based on feedback, why are users finding it difficult to complete the setup process?"
+
+---
+
+## Why This Matters
+
+This is an AI-driven bridge that unifies quantitative metrics with qualitative insights, helping Product Managers deeply understand user behavior and craft compelling, data-backed stories for stakeholders.
+
+**Speed:** From question to insight in seconds, not hours of query writing.
+
+**Holistic View:** Correlate "What" (behavioral metrics) with "Why" (user sentiment) in a single conversation.
+
+**Security:** The feedback transcripts and PII data remain on your machine. The AI processes context locally via your Cursor instance.
+
+**Efficiency:** Eliminates the bottleneck of waiting on Data Analysts for ad-hoc requests.
+
+The bottleneck in data-driven product work was never the warehouse; it was the fragmentation of insight. By bridging behavioral metrics with human feedback, MCP turns raw data into a coherent narrative.
+
+---
+
+## Resources
+[Model Context Protocol (MCP) Documentation] (https://modelcontextprotocol.io/docs/getting-started/intro)
+[mcp-server-bigquery on PyPI](https://pypi.org/project/mcp-server-bigquery/)
+[Google Cloud BigQuery Documentation] (https://docs.cloud.google.com/bigquery/docs)
+[Cursor Desktop Download] (https://cursor.com/get-started?utm_source=google_paid&utm_campaign=[Search]%20[Brand]%20[EN]%20[EMEA%20T1]%20[Broad]%20[VBB]%20Brand&utm_term=cursor%20download&utm_medium=paid&utm_content=799633513368&cc_platform=google&cc_campaignid=23633435220&cc_adgroupid=197790260327&cc_adid=799633513368&cc_keyword=cursor%20download&cc_matchtype=b&cc_device=c&cc_network=g&cc_placement=&cc_location=9197931&cc_adposition=&gad_source=1&gad_campaignid=23633435220&gbraid=0AAAABAkdGgQK4ff3bkoWpKKtMyMZP0Fk5&gclid=Cj0KCQjwlLDQBhDjARIsAPlIefFqKUsxCv_aX9zgDvUchG81MQAsoY-_ovU-vpcWihtcw4CGDP81P88aAlJoEALw_wcB)
+
+---
+
+## License
+-
+MIT
+
