@@ -1,0 +1,1 @@
+# cursor-mcp-user-insights-revenue-funnel-analytics
