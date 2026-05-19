@@ -105,29 +105,7 @@ Insight Synthesis: Cursor correlates the behavioral metrics (the What) with the 
 
 **Step 1 — Configure Cursor MCP**
 Open the Cursor settings, navigate to Features > MCP, and click Add New MCP Server.
-Paste the following configuration:
-JSON
-{
-  "mcpServers": {
-    "bigquery-revenue": {
-      "command": "uvx",
-      "args": ["mcp-server-bigquery"],
-      "env": {
-        "BIGQUERY_PROJECT": "your-gcp-project-id",
-        "BIGQUERY_LOCATION": "us-central1"
-      }
-    },
-    "user-insights": {
-      "command": "node",
-      "args": ["/path/to/your/mcp-server-user-insight/index.js"],
-      "env": {
-        "AMPLITUDE_API_KEY": "your_key",
-        "AMPLITUDE_SECRET": "your_secret",
-        "LOCAL_VECTOR_DB_PATH": "./data/vector_store"
-      }
-    }
-  }
-}
+Paste the following configuration: mcp-config-template.json (https://github.com/LamPham1991/cursor-mcp-user-insights-revenue-funnel-analytics/blob/main/mcp-config-template.json)
 
 **Step 2 — Authenticate Locally**
 For BigQuery: Run gcloud auth application-default login in your terminal. This allows the server to query data using your local credentials without needing service account JSON files.
