@@ -40,7 +40,8 @@ This project connects your AI Code Editor (**Cursor**) directly to **Google BigQ
 4. **Insight Delivery:** Results are returned to Cursor, which interprets the trends, identifies friction points, and presents them conversationally.
 
 # Qualitative & Quantitative User Insights
-<img width="528" height="554" alt="Screenshot 2026-05-19 at 16 29 00" src="https://github.com/user-attachments/assets/a76d6d89-6dae-4c1a-89a4-70e20823e8a9" />
+
+<img width="466" height="498" alt="Screenshot 2026-05-19 at 16 37 50" src="https://github.com/user-attachments/assets/9bce6a6e-48a1-4299-ac48-443e709eced6" />
 
 ### How it works:
 1. **Ask in Natural Language:** You ask Cursor a question about user product behavior (e.g., "What is the drop-off rate at the KYC step?") or user feedback (e.g., "What are the top 3 user complaints about our new feature?") in the Chat sidebar or Composer.
@@ -54,7 +55,93 @@ For Qualitative Data: It performs a semantic search against your local Vector DB
 3. **Local & Secure Processing:** All operations run locally. Authentications to third-party analytics platforms use your local API Keys, and qualitative analysis is strictly bounded to your local workspace context. Your raw feedback data and transcripts never leave your machine.
 
 Insight Synthesis: Cursor correlates the behavioral metrics (the What) with the semantic user feedback (the Why), giving you a holistic, conversational breakdown of user insights directly in your editor.
+
 ---
 
 ## Example Insights & Output Dashboards
 
+**Core Feature Engagement (Quantitative)**
+"What is the engagement depth of our new Gamification feature by monthly cohort?"
+
+<img width="1024" height="629" alt="image" src="https://github.com/user-attachments/assets/55f2cc20-1562-450e-a7ae-5aa3021afe23" />
+
+**Qualitative Feedback & Interview Synthesis**
+"What are the most frequent user complaints about the Gamification UI, and what examples can you synthesize from recent interviews?"
+
+<img width="1024" height="931" alt="image" src="https://github.com/user-attachments/assets/a6d15404-d1d8-4216-aba0-d065ba515968" />
+
+
+**Conversion Dashboard**
+"Show me the new user onboarding-to-paid conversion rate, broken down by monthly cohorts for the last 6 months."
+
+<img width="706" height="337" alt="Screenshot 2026-05-19 at 16 45 02" src="https://github.com/user-attachments/assets/5e3381d7-7f9e-4f06-80dd-f5d18bfc299c" />
+
+**Lead & Revenue Interaction**
+"How do lead volume and revenue correlate across our different segments?"
+
+<img width="1024" height="629" alt="image" src="https://github.com/user-attachments/assets/b986cecd-053d-439a-abd1-4121cb15bbcc" />
+
+---
+
+## How to Set Up
+
+**Prerequisites**
+
+- Cursor IDE installed.
+- A Google Cloud project with BigQuery enabled (for Revenue & Quant data).
+- Python 3.10+ and uv.
+- API Key for your Analytics platform (e.g., Amplitude/Mixpanel).
+
+**Step 1 — Configure Cursor MCP**
+Open the Cursor settings, navigate to Features > MCP, and click Add New MCP Server.
+Paste the following configuration:
+JSON
+{
+  "mcpServers": {
+    "bigquery-revenue": {
+      "command": "uvx",
+      "args": ["mcp-server-bigquery"],
+      "env": {
+        "BIGQUERY_PROJECT": "your-gcp-project-id",
+        "BIGQUERY_LOCATION": "us-central1"
+      }
+    },
+    "user-insights": {
+      "command": "node",
+      "args": ["/path/to/your/mcp-server-user-insight/index.js"],
+      "env": {
+        "AMPLITUDE_API_KEY": "your_key",
+        "AMPLITUDE_SECRET": "your_secret",
+        "LOCAL_VECTOR_DB_PATH": "./data/vector_store"
+      }
+    }
+  }
+}
+
+**Step 2 — Authenticate Locally**
+For BigQuery: Run gcloud auth application-default login in your terminal. This allows the server to query data using your local credentials without needing service account JSON files.
+For Insights: Ensure your .env file (if using node server) contains valid API keys for your behavioral analytics provider.
+
+**Step 3 — Initialize Local Context**
+Place your qualitative data (interview transcripts in .md, .txt, or .pdf) into the ./data/transcripts folder. The user-insights server will automatically index these for semantic search.
+
+**Step 4 — Verify Connection**
+Restart Cursor. In the Chat sidebar or Composer (Ctrl/Cmd + L), look for the MCP icon (a plug or hammer symbol). You should see bigquery-revenue and user-insights active.
+Start Asking Questions
+*Revenue Funnel:*
+
+"Show me the new user onboarding-to-paid conversion rate, broken down by monthly cohorts for the last 6 months."
+
+"What's the drop-off rate at each step of our onboarding funnel?"
+
+*Quantitative Behavioral Insights:*
+
+"Which core features are most utilized by users who have a high PQL score?"
+
+"Compare the 30-day retention rate between users from organic channels vs. paid ads."
+
+*Qualitative Feedback:*
+
+"Synthesize the most common friction points regarding our 'Dashboard' UI from recent user interviews."
+
+"Based on feedback, why are users finding it difficult to complete the setup process?"
