@@ -180,8 +180,11 @@ The bottleneck in data-driven product work was never the warehouse; it was the f
 
 ## Resources
 -[Model Context Protocol (MCP) Documentation](https://modelcontextprotocol.io/docs/getting-started/intro)
+
 -[mcp-server-bigquery on PyPI](https://pypi.org/project/mcp-server-bigquery/)
+
 -[Google Cloud BigQuery Documentation](https://docs.cloud.google.com/bigquery/docs)
+
 -[Cursor Desktop Download](https://cursor.com/get-started?utm_source=google_paid&utm_campaign=[Search]%20[Brand]%20[EN]%20[EMEA%20T1]%20[Broad]%20[VBB]%20Brand&utm_term=cursor%20download&utm_medium=paid&utm_content=799633513368&cc_platform=google&cc_campaignid=23633435220&cc_adgroupid=197790260327&cc_adid=799633513368&cc_keyword=cursor%20download&cc_matchtype=b&cc_device=c&cc_network=g&cc_placement=&cc_location=9197931&cc_adposition=&gad_source=1&gad_campaignid=23633435220&gbraid=0AAAABAkdGgQK4ff3bkoWpKKtMyMZP0Fk5&gclid=Cj0KCQjwlLDQBhDjARIsAPlIefFqKUsxCv_aX9zgDvUchG81MQAsoY-_ovU-vpcWihtcw4CGDP81P88aAlJoEALw_wcB)
 
 ---
