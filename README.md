@@ -1,6 +1,6 @@
 # AI-Powered Qualitative & Quantitative User Insights & Revenue Funnel Analytics
 
-> **Skip the SQL and analytics queue.** Go from complex behavioral questions to deep product and revenue insights in seconds — powered by Cursor/Claude Desktop, MCP (Model Context Protocol), and BigQuery.
+> **Skip the SQL and analytics queue.** Go from complex behavioral questions to deep product and revenue insights in seconds — powered by Cursor, MCP (Model Context Protocol), and BigQuery.
 
 ---
 
@@ -28,4 +28,4 @@ The core issue isn't access to data. It's the **latency between behavioral quest
 
 ## The Architecture
 
-This project connects your AI Development environment (**Cursor** or **Claude Desktop**) directly to **Google BigQuery** using the **Model Context Protocol (MCP)** — an open standard that lets AI assistants call external databases and tools natively.
+This project connects your AI Development environment (**Cursor**) directly to **Google BigQuery** using the **Model Context Protocol (MCP)** — an open standard that lets AI assistants call external databases and tools natively.
