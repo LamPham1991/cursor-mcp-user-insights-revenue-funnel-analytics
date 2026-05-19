@@ -141,6 +141,7 @@ Place your qualitative data (interview transcripts in .md, .txt, or .pdf) into t
 Restart Cursor. In the Chat sidebar or Composer (Ctrl/Cmd + L), look for the MCP icon (a plug or hammer symbol). You should see bigquery-revenue and user-insights active.
 
 **Start Asking Questions**
+
 *Revenue Funnel:*
 
 "Show me the new user onboarding-to-paid conversion rate, broken down by monthly cohorts for the last 6 months."
@@ -178,14 +179,13 @@ The bottleneck in data-driven product work was never the warehouse; it was the f
 ---
 
 ## Resources
-[Model Context Protocol (MCP) Documentation] (https://modelcontextprotocol.io/docs/getting-started/intro)
-[mcp-server-bigquery on PyPI](https://pypi.org/project/mcp-server-bigquery/)
-[Google Cloud BigQuery Documentation] (https://docs.cloud.google.com/bigquery/docs)
-[Cursor Desktop Download] (https://cursor.com/get-started?utm_source=google_paid&utm_campaign=[Search]%20[Brand]%20[EN]%20[EMEA%20T1]%20[Broad]%20[VBB]%20Brand&utm_term=cursor%20download&utm_medium=paid&utm_content=799633513368&cc_platform=google&cc_campaignid=23633435220&cc_adgroupid=197790260327&cc_adid=799633513368&cc_keyword=cursor%20download&cc_matchtype=b&cc_device=c&cc_network=g&cc_placement=&cc_location=9197931&cc_adposition=&gad_source=1&gad_campaignid=23633435220&gbraid=0AAAABAkdGgQK4ff3bkoWpKKtMyMZP0Fk5&gclid=Cj0KCQjwlLDQBhDjARIsAPlIefFqKUsxCv_aX9zgDvUchG81MQAsoY-_ovU-vpcWihtcw4CGDP81P88aAlJoEALw_wcB)
+-[Model Context Protocol (MCP) Documentation](https://modelcontextprotocol.io/docs/getting-started/intro)
+-[mcp-server-bigquery on PyPI](https://pypi.org/project/mcp-server-bigquery/)
+-[Google Cloud BigQuery Documentation](https://docs.cloud.google.com/bigquery/docs)
+-[Cursor Desktop Download](https://cursor.com/get-started?utm_source=google_paid&utm_campaign=[Search]%20[Brand]%20[EN]%20[EMEA%20T1]%20[Broad]%20[VBB]%20Brand&utm_term=cursor%20download&utm_medium=paid&utm_content=799633513368&cc_platform=google&cc_campaignid=23633435220&cc_adgroupid=197790260327&cc_adid=799633513368&cc_keyword=cursor%20download&cc_matchtype=b&cc_device=c&cc_network=g&cc_placement=&cc_location=9197931&cc_adposition=&gad_source=1&gad_campaignid=23633435220&gbraid=0AAAABAkdGgQK4ff3bkoWpKKtMyMZP0Fk5&gclid=Cj0KCQjwlLDQBhDjARIsAPlIefFqKUsxCv_aX9zgDvUchG81MQAsoY-_ovU-vpcWihtcw4CGDP81P88aAlJoEALw_wcB)
 
 ---
 
 ## License
--
-MIT
+-MIT
 
